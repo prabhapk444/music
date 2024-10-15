@@ -2,7 +2,7 @@
 const nextConfig = {
     images: {
         domains: ["hmlpkncszudwmcswmstp.supabase.co"],
-        minimumCacheTTL: 100,
+      
     },
     experimental: {
         reactRefresh: true,

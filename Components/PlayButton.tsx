@@ -9,7 +9,8 @@ const PlayButton = () => {
         rounded-full 
         flex 
         items-center 
-        justify-center
+        justify-center 
+        bg-green-500 
         p-4 
         drop-shadow-md 
         translate
@@ -18,7 +19,6 @@ const PlayButton = () => {
         group-hover:translate-y-0
         hover:scale-110
       "
-      style={{ backgroundColor: '#18ffff' }}
     >
       <FaPlay className="text-black" />
     </button>
